@@ -1,0 +1,27 @@
+{
+  "name": "nytimesscrapper",
+  "version": "1.0.0",
+  "description": "news article scrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blbaker1989/NYtimesScrapper.git"
+  },
+  "author": "Brooke Baker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blbaker1989/NYtimesScrapper/issues"
+  },
+  "homepage": "https://github.com/blbaker1989/NYtimesScrapper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.0-rc0",
+    "request": "^2.83.0"
+  }
+}
